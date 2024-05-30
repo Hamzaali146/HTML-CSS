@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figma Design</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: "Roboto", sans-serif;
+        }
+        .headCon{
+            display: flex;
+            height: 100px;
+            /* background-color: blanchedalmond; */
+            justify-content: space-between;
+            align-items: center;
+            /* padding: 12px 0px 0 70px; */
+        }
+        .menu ul{
+            display: flex;
+            gap: 20px;
+            align-items: center;
+        }
+        .menu ul li{
+            list-style-type: none;
+        }
+        .menu{
+            display: flex;
+            gap: 20px;
+            padding: 0px 40px 0px 0px;
+            font-size: 16px;
+        }
+        .webtxt{
+            padding: 0px 0px 0px 40px;
+            font-size: 16px;
+        }
+        .headbtn{
+            padding: 6px 16px 6px 16px;
+            border-radius: 6px;
+            border: none;
+            background-color: black;
+            color: white;
+            font-size: 14px;
+            cursor: pointer;
+        }
+        .heroCon{
+            width: 50vw;
+            /* background-color: aqua; */
+            margin: 30px auto auto auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 50px;
+            line-height: 42px;
+        }
+        .mainimg{
+            width: 85vw;
+            height: 40vw;
+            background: url(/images/feast.png);
+            background-size: cover;
+            margin: auto ;
+        }
+        .review{
+            margin-top: 80px;
+            display: flex;
+            padding-left:90px;
+            /* line-height: 32px; */
+            flex-direction: column;
+            gap: 30px;
+        }
+        .reviewCon{
+            display: flex;
+            gap: 10px;
+        }
+        .profimg{
+            background: url(/images/prof1.png);
+            width: 50px;
+            height: 50px;
+            background-size: cover;
+            border-radius:50px;
+        }
+        .profile{
+            display: flex;
+            gap: 10px;
+            margin-top: 8px;
+            align-items: center;
+            /* background-color: aqua; */
+            /* width: 320px; */
+            padding-right: 50px;
+        }
+        .card{
+            background-color: #F7F7F7;
+            box-shadow: -4px 8px 20px 0px #0000001A;
+            width: 30vw;
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            border: 1px solid #F7F7F7
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="headCon">
+                <div class="webtxt">
+                    My Website
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Services</li>
+                    </ul>
+                    <button class="headbtn">
+                        button
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="heroCon">
+        <h1>Landing page title</h1>
+        <p style="color: gray;">And a subheading describing your site, too</p>
+        <button class="headbtn">
+            button
+        </button>
+    </div>
+    <div class="mainimg">
+        <!-- <img src="/images/feast.png" alt=""> -->
+    </div>
+    <div class="review">
+        <div class="revhead">
+            <h2 style="font-size: 32px;">Heading</h2>
+            <p style="color: gray;">Subheading to introduce testimonials</p>
+        </div>
+        <div class="reviewCon">
+            <div class="card">
+                <h4>“A terrific piece of praise”</h4>
+                <div class="profile">
+                    <div class="profimg"></div>
+                    <div class="reviewtxt">
+                        <p><strong>Name</strong></p>
+                        <p>Description</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <h4>“A terrific piece of praise”</h4>
+                <div class="profile">
+                    <div class="profimg"></div>
+                    <div class="reviewtxt">
+                        <p><strong>Name</strong></p>
+                        <p>Description</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <h4>“A terrific piece of praise”</h4>
+                <div class="profile">
+                    <div class="profimg"></div>
+                    <div class="reviewtxt">
+                        <p><strong>Name</strong></p>
+                        <p>Description</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
