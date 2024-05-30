@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+.headCon{
+    display: flex;
+    height: 100px;
+    /* background-color: blanchedalmond; */
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 12px 0px 0 70px; */
+}
+.menu ul{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.menu ul li{
+    list-style-type: none;
+}
+.menu{
+    display: flex;
+    gap: 20px;
+    padding: 0px 40px 0px 0px;
+    font-size: 16px;
+}
+.webtxt{
+    padding: 0px 0px 0px 40px;
+    font-size: 16px;
+}
+.headbtn{
+    padding: 6px 16px 6px 16px;
+    border-radius: 6px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+.heroCon{
+    width: 50vw;
+    /* background-color: aqua; */
+    margin: 30px auto auto auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    line-height: 42px;
+}
+.mainimg{
+    width: 85vw;
+    height: 40vw;
+    background: url(/images/feast.png);
+    background-size: cover;
+    margin: auto ;
+}
+.review{
+    margin-top: 80px;
+    display: flex;
+    padding-left:90px;
+    /* line-height: 32px; */
+    flex-direction: column;
+    gap: 30px;
+}
+.reviewCon{
+    display: flex;
+    gap: 60px;
+}
+.profimg{
+    background: url(/images/prof1.png);
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    border-radius:50px;
+}
+.profile{
+    display: flex;
+    gap: 10px;
+    margin-top: 8px;
+    align-items: center;
+    /* background-color: aqua; */
+    /* width: 320px; */
+    padding-right: 50px;
+}
+.card{
+    background-color: #F7F7F7;
+    box-shadow: -4px 8px 20px 0px #0000001A;
+    width: 25vw;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #F7F7F7
+}
+.postCon{
+    margin-top: 80px;
+    display: flex;
+    padding-left:90px;
+    /* line-height: 32px; */
+    flex-direction: column;
+    gap: 30px;
+}
+#postimg{
+    background: url(/images/img.jpeg);
+    width: 346px;
+    height: 346px;
+    background-size: cover;
+}
+#postimg1{
+    background: url(/images/img2.jpeg);
+    width: 346px;
+    height: 346px;
+    background-size: cover;
+}
+#postimg2{
+    background: url(/images/img3.jpeg);
+    width: 346px;
+    height: 346px;
+    background-size: cover;
+}
+.postimagesCon{
+    display: flex;
+    gap: 50px;
+}
+.footerd{
+    background-color: #FFFFFF;
+    height: 168px;
+    margin-top: 80px;
+}
