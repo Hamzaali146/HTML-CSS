@@ -65,6 +65,12 @@
     flex-direction: column;
     gap: 30px;
 }
+#reviewheading{
+    font-size:32px ;
+}
+#reviewp{
+    color: gray;
+}
 .reviewCon{
     display: flex;
     flex-wrap: wrap;
@@ -177,6 +183,7 @@ opacity: 0.2;
     gap: 40px;
 }
 
+
 @media (max-width: 480px) {
     .heroCon{
         padding: 0;
@@ -190,6 +197,9 @@ opacity: 0.2;
         font-size: 12px;
         line-height: 16px;
     }
+    #reviewp{
+        padding-left: 20px;
+    }
     .headbtn{
         padding: 4px 12px 4px 12px;
         font-size: 12px;
@@ -198,6 +208,10 @@ opacity: 0.2;
         margin-top: 20px;
     }
     .review{
+        padding-left: 0px;
+    }
+    #reviewheading{
+        font-size:22px ;
         padding-left: 20px;
     }
     h2{
@@ -243,6 +257,7 @@ opacity: 0.2;
     }
     .fsec{
         padding-left: 0;
+        gap: 0px;
     }
     .menu{
         padding-right: 10px;
