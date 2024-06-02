@@ -256,6 +256,7 @@ opacity: 0.2;
         gap: 5px;
     }
     .fsec{
+        margin-top: 5px;
         padding-left: 0;
         gap: 0px;
     }
@@ -273,6 +274,9 @@ opacity: 0.2;
     .webtxt{
         padding-left: 15px;
         font-size: 14px;
+    }
+    .ssecone ul{
+        font-size: 12px;
     }
 }
 
