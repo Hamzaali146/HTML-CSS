@@ -110,11 +110,13 @@
     width: 346px;
     height: 346px;
     background-size: cover;
+    border-radius: 10px;
 }
 #postimg1{
     background: url(images/img2.jpeg);
     width: 346px;
     height: 346px;
+    border-radius: 10px;
     background-size: cover;
 }
 #postimg2{
@@ -122,6 +124,7 @@
     width: 346px;
     height: 346px;
     background-size: cover;
+    border-radius: 10px;
 }
 .postimagesCon{
     display: flex;
@@ -172,5 +175,89 @@ opacity: 0.2;
     /* align-items:end; */
     justify-content: space-around;
     gap: 40px;
+}
+
+@media (max-width: 480px) {
+    .heroCon{
+        padding: 0;
+        line-height: 30px;
+        gap: 6px;
+    }  
+    h1{
+        font-size: 20px;
+    }
+    p{
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .headbtn{
+        padding: 4px 12px 4px 12px;
+        font-size: 12px;
+    }
+    .mainimg{
+        margin-top: 20px;
+    }
+    .review{
+        padding-left: 20px;
+    }
+    h2{
+        font-size: 22px;
+    }
+    .reviewCon{
+        gap: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .card{
+        width: 80vw;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .postCon{
+        padding-left: 10px;
+    }
+    .postimagesCon{
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+    #postimg{
+        width: 280px;
+        height: 280px;
+    }
+    #postimg1{
+        width: 280px;
+        height: 280px;
+    }
+    #postimg2{
+        width: 280px;
+        height: 280px;
+    }
+    .ssec{
+        gap: 2px;
+        margin-right: 8px;
+    }
+    .iconimgs ul{
+        gap: 5px;
+    }
+    .fsec{
+        padding-left: 0;
+    }
+    .menu{
+        padding-right: 10px;
+        gap: 10px;
+    }
+    .menu ul{
+        gap: 12px;
+        font-size: 14px;
+    }
+    .menu button{
+        font-size: 14px;
+    }
+    .webtxt{
+        padding-left: 15px;
+        font-size: 14px;
+    }
 }
 
